@@ -1,25 +1,35 @@
+import React, {Component} from 'react';
+import { NavLink, BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import logo from './logo.svg';
+// import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React HIIIII
-        </a>
-      </header>
-    </div>
-  );
+import Home from './components/Home.js';
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count:0,
+      // activeItem: 'home',
+      // audioOnly:false,
+    };
+  }
+
+  render() {
+    return (
+      <BrowserRouter>
+      <div className="app">
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/about' element={<Home currentPage='about' />}></Route>
+          <Route path='/projects' element={<Home currentPage='projects' />}></Route>
+          <Route path='/contact' element={<Home currentPage='contact' />}></Route>
+        </Routes>
+      </div>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
