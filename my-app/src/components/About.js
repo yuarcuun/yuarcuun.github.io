@@ -215,14 +215,18 @@ class About extends Component {
 				Quyana cakneq!
 				</div>
 
-				<div style={{display:'flex'}}>
-					<div style={{flex:1,margin:30}}>
-						<Image style={{borderRadius:'20px'}} src="/egal.jpg"/>
-						<div style={{display:'flex',justifyContent:'center',marginTop:10}}>Egalaaq</div>
+				<div style={{display:'flex',justifyContent:'center',paddingTop:'20px'}}>
+					<div style={{margin:20}}>
+						<div style={{textAlign:'center',maxWidth:'200px'}}>
+							<Image style={{borderRadius:'20px',width:'100%',height:'auto'}} src="/egal.jpg"/>
+							<div style={{marginTop:10}}>Egalaaq</div>
+						</div>
 					</div>
-					<div style={{flex:1,margin:30}}>
-						<Image style={{borderRadius:'20px'}} src="/lonny.jpeg"/>          
-						<div style={{display:'flex',justifyContent:'center',marginTop:10}}>Alaskuk</div>
+					<div style={{margin:20}}>
+						<div style={{textAlign:'center',maxWidth:'200px'}}>
+							<Image style={{borderRadius:'20px',width:'100%',height:'auto'}} src="/lonny.jpeg"/>          
+							<div style={{marginTop:10}}>Alaskuk</div>
+						</div>
 					</div>
 				</div>
 

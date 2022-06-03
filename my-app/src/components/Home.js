@@ -205,28 +205,85 @@ class Home extends Component {
 		return (
 			<div>
 			{this.state.innerWidth < 480 ?
-				<div>
-					<div>Yuarcuun Technologies</div>
-					<div>
-						<List link>
-							<List.Item>
-								<Link to={{pathname: '/'}}>
-									About
-								</Link>
-							</List.Item>
-							<List.Item>
-								<Link to={{pathname: '/projects'}}>
-									Projects
-								</Link>
-							</List.Item>
-							<List.Item>
-								<Link to={{pathname: '/contact'}}>
-									Contact
-								</Link>
-							</List.Item>
-						</List>
-					</div>
-					<Divider />
+				<div className='headerfont' style={{padding:10}}>
+						<div style={{paddingTop:'10px'}}>
+							<Image style={{cursor:'pointer',width:'150px'}} src="/yuraq.png"/>          
+						</div>
+						<div style={{paddingLeft:'15px',paddingTop:'20px',fontWeight:'600',fontSize:'22px'}}> Yuarcuun 
+		                <Popup
+		                  trigger={<Icon style={{color:'#497182',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+		                  on='click'
+		                  content={
+
+	                      <div>
+	                      <div style={{fontSize:22}}>{'yuar·cuun'}</div>
+
+	                            <div style={{paddingTop:15,paddingLeft:0,fontSize:'16px'}}>
+	                                <div>
+	                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+	                                <div>
+	                                {'yuar'}
+	                                </div>
+	                                </div>                  
+	                                {'to look for; to miss; to long for'}
+	                                </div>
+	                            </div>
+
+	                            <div style={{paddingTop:15,paddingLeft:20,fontSize:'16px'}}>
+	                                <div>
+	                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+	                                <div>
+	                                {'+cuute|+ssuute[V→N]'}
+	                                </div>
+	                                </div>                  
+	                                {'device for V-ing'}
+	                                </div>
+	                            </div>
+	                            <div style={{paddingTop:15,paddingLeft:40,fontSize:'16px'}}>
+	                                <div>
+	                                <div style={{fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+	                                <div>
+	                                {'the one'}
+	                                </div>
+	                                </div>                  
+	                                {'absolutive noun ending'}
+	                                </div>
+	                            </div>	                           
+	                      </div>
+
+		                  }
+		                  position='bottom left'
+		                />
+						</div>
+						<div style={{paddingLeft:'15px',paddingTop:'7px',fontWeight:'600',fontSize:'22px'}}> Technologies </div>
+						<div style={{paddingLeft:'15px',paddingTop:'20px',fontStyle:'italic',fontWeight:'300',fontSize:'16px',color:'#9b9b9b'}}> [tool to find what you're searching for] </div>
+						<div className='navigation'>
+							<List link>
+								<List.Item active={this.props.currentPage === undefined}>
+									<Link style={{height:'28px',paddingBottom:'3px',borderBottom:(this.props.currentPage === undefined ? '2px black solid' : '')}} to={{pathname: '/'}}>
+										About
+									</Link>
+								</List.Item>
+								<List.Item active={this.props.currentPage === 'projects'}>
+									<Link style={{height:'28px',paddingBottom:'3px',borderBottom:(this.props.currentPage === 'projects' ? '2px black solid' : '')}} to={{pathname: '/projects'}}>
+										Projects
+									</Link>
+								</List.Item>
+								<List.Item active={this.props.currentPage === 'contact'}>
+									<Link style={{height:'28px',paddingBottom:'3px',borderBottom:(this.props.currentPage === 'contact' ? '2px black solid' : '')}} to={{pathname: '/contact'}}>
+										Contact
+									</Link>
+								</List.Item>
+							</List>
+						</div>
+						<div style={{paddingLeft:'13px',paddingTop:'20px', paddingBottom:'30px'}}>
+
+            			<a href="https://github.com/cwtliu" target="_blank" ><Icon size='large' color='grey'  name='github' /></a>
+            			<a href="mailto:yuarcuun@gmail.com" target="_blank" ><Icon size='large' color='grey'  name='mail outline' /></a>
+            			<a href="https://www.linkedin.com/in/cwtliu/" target="_blank" ><Icon size='large' color='grey'  name='linkedin' /></a>
+
+						</div>
+
 					{this.props.currentPage === undefined ?
 					<About />
 					:
@@ -253,12 +310,50 @@ class Home extends Component {
 							<Image style={{cursor:'pointer',width:'150px'}} src="/yuraq.png"/>          
 						</div>
 						<div style={{paddingLeft:'15px',paddingTop:'20px',fontWeight:'600',fontSize:'22px'}}> Yuarcuun 
-                <Popup
-                  trigger={<Icon style={{color:'#9b9b9b',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                  on='click'
-                  content={<div style={{fontSize:'16px'}}>{'Thank you all for coming! Our websites were built using computer science. The two of us, Egalaaq and Alaskuk, were raised in the Kuskokwim region. Our work would not exist without the help of many people. We are thankful to our teachers, Yugtun language authors, and our families.'}</div>}
-                  position='bottom left'
-                />
+		                <Popup
+		                  trigger={<Icon style={{color:'#497182',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+		                  on='click'
+		                  content={
+
+	                      <div>
+	                      <div style={{fontSize:22}}>{'yuar·cuun'}</div>
+
+	                            <div style={{paddingTop:15,paddingLeft:0,fontSize:'16px'}}>
+	                                <div>
+	                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+	                                <div>
+	                                {'yuar'}
+	                                </div>
+	                                </div>                  
+	                                {'to look for; to miss; to long for'}
+	                                </div>
+	                            </div>
+
+	                            <div style={{paddingTop:15,paddingLeft:20,fontSize:'16px'}}>
+	                                <div>
+	                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+	                                <div>
+	                                {'+cuute|+ssuute[V→N]'}
+	                                </div>
+	                                </div>                  
+	                                {'device for V-ing'}
+	                                </div>
+	                            </div>
+	                            <div style={{paddingTop:15,paddingLeft:40,fontSize:'16px'}}>
+	                                <div>
+	                                <div style={{fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+	                                <div>
+	                                {'the one'}
+	                                </div>
+	                                </div>                  
+	                                {'absolutive noun ending'}
+	                                </div>
+	                            </div>	                           
+	                      </div>
+
+		                  }
+		                  position='bottom left'
+		                />
 						</div>
 						<div style={{paddingLeft:'15px',paddingTop:'7px',fontWeight:'600',fontSize:'22px'}}> Technologies </div>
 						<div style={{paddingLeft:'15px',paddingTop:'20px',fontStyle:'italic',fontWeight:'300',fontSize:'16px',color:'#9b9b9b'}}> [tool to find what you're searching for] </div>
@@ -282,9 +377,11 @@ class Home extends Component {
 							</List>
 						</div>
 						<div style={{paddingLeft:'13px',paddingTop:'20px'}}>
-						<Icon size='large' color='grey'  name='github' />
-						<Icon size='large' color='grey'  name='linkedin' />
-						<Icon size='large' color='grey'  name='mail outline' />
+
+            			<a href="https://github.com/cwtliu" target="_blank" ><Icon size='large' color='grey'  name='github' /></a>
+            			<a href="mailto:yuarcuun@gmail.com" target="_blank" ><Icon size='large' color='grey'  name='mail outline' /></a>
+            			<a href="https://www.linkedin.com/in/cwtliu/" target="_blank" ><Icon size='large' color='grey'  name='linkedin' /></a>
+
 						</div>
 
 					</Grid.Column>

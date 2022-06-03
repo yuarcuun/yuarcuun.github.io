@@ -186,16 +186,16 @@ class Projects extends Component {
 
 		return (
 			<div>
-				<div className='pageheader'>Projects</div>
+				<div className='pageheader'>Featured Projects</div>
 
 				<div className='pagetext'>
 
 				<div>
 					<div className='projectDate'>
-					JUNE 2019
+					RELEASE JUNE 2022
 					</div>
 					<div className='projectTitle'>
-					Naaqerkat App
+					Iñupiaq Online
 					</div>
 					<div className='projectPicture'>
 						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
@@ -207,7 +207,37 @@ class Projects extends Component {
 
 				<div>
 					<div className='projectDate'>
-					JUNE 2019
+					RELEASE JULY 2022 (In-Progress)
+					</div>
+					<div className='projectTitle'>
+					Ciuliamta Paiciutait
+					</div>
+					<div className='projectPicture'>
+						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
+					</div>
+					<div className='projectDescription'>
+					Various projects related to endangered languages revitalization, to be updated. I am passionate about languages in general, and endangered languages strike a chord with me.
+					</div>
+				</div>
+
+				<div>
+					<div className='projectDate'>
+					RELEASED JUNE 2019
+					</div>
+					<div className='projectTitle'>
+					Yugtun.com
+					</div>
+					<div className='projectPicture'>
+						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
+					</div>
+					<div className='projectDescription'>
+					Various projects related to endangered languages revitalization, to be updated. I am passionate about languages in general, and endangered languages strike a chord with me.
+					</div>
+				</div>
+
+				<div>
+					<div className='projectDate'>
+					RELEASED JUNE 2019
 					</div>
 					<div className='projectTitle'>
 					Naaqerkat App
