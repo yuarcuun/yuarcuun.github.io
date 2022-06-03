@@ -281,7 +281,7 @@ class Home extends Component {
 								</List.Item>
 							</List>
 						</div>
-						<div style={{paddingLeft:'13px',paddingTop:'20px', paddingBottom:'30px'}}>
+						<div style={{paddingLeft:'20px',paddingTop:'20px', paddingBottom:'30px'}}>
 
             			<a href="https://github.com/cwtliu" target="_blank" ><Icon size='large' color='grey'  name='github' /></a>
             			<a href="mailto:yuarcuun@gmail.com" target="_blank" ><Icon size='large' color='grey'  name='mail outline' /></a>
@@ -381,7 +381,7 @@ class Home extends Component {
 								</List.Item>
 							</List>
 						</div>
-						<div style={{paddingLeft:'13px',paddingTop:'20px'}}>
+						<div style={{paddingLeft:'20px',paddingTop:'20px'}}>
 
             			<a href="https://github.com/cwtliu" target="_blank" ><Icon size='large' color='grey'  name='github' /></a>
             			<a href="mailto:yuarcuun@gmail.com" target="_blank" ><Icon size='large' color='grey'  name='mail outline' /></a>
