@@ -192,62 +192,69 @@ class Projects extends Component {
 
 				<div>
 					<div className='projectDate'>
-					RELEASE JUNE 2022
+					RELEASED JUNE 2022
 					</div>
 					<div className='projectTitle'>
 					Iñupiaq Online
 					</div>
 					<div className='projectPicture'>
-						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
+						<a href="https://www.inupiaqonline.com" target="_blank"><Image style={{borderRadius:'20px'}} src="/inupiaqonlinelogo.png"/></a>  
 					</div>
 					<div className='projectDescription'>
-					Various projects related to endangered languages revitalization, to be updated. I am passionate about languages in general, and endangered languages strike a chord with me.
+						<div style={{paddingBottom:'10px'}}>This is an online version of the North Slope Iñupiaq dictionary compiled by Edna MacLean. It contains an audio library and a word builder function to form Iñupiaq words.</div>
+						<div>View the website <a href="https://www.inupiaqonline.com" target="_blank" >here</a>.</div>
+
 					</div>
 				</div>
 
 				<div>
 					<div className='projectDate'>
-					RELEASE JULY 2022 (In-Progress)
+					PROJECTED JULY 2022 (In-Progress)
 					</div>
 					<div className='projectTitle'>
 					Ciuliamta Paiciutait
 					</div>
-					<div className='projectPicture'>
-						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
-					</div>
 					<div className='projectDescription'>
-					Various projects related to endangered languages revitalization, to be updated. I am passionate about languages in general, and endangered languages strike a chord with me.
+					An online archive of 100 Yup'ik elder interview with access to interactive sentence and word-level translations. This website is made in partnership with KYUK. 
 					</div>
 				</div>
 
 				<div>
 					<div className='projectDate'>
-					RELEASED JUNE 2019
+					RELEASED OCTOBER 2018
 					</div>
 					<div className='projectTitle'>
 					Yugtun.com
 					</div>
-					<div className='projectPicture'>
-						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
+					<div style={{marginTop:'25px',marginBottom:'10px'}} className='projectPicture'>
+						<a href="https://www.yugtun.com" target="_blank"><Image style={{borderRadius:'20px'}} src="/yugtun.png"/></a>   
 					</div>
 					<div className='projectDescription'>
-					Various projects related to endangered languages revitalization, to be updated. I am passionate about languages in general, and endangered languages strike a chord with me.
+					<div style={{paddingBottom:'10px'}}> This is an online searchable dictionary of Yugtun. It contains a sentence builder function that can be used to form different Yugtun words. It also incorporates a morphological parser built by Lonny Alaskuk Strunk that deconstructs and explains the individual parts of a Yugtun word. Stay tuned for more updates to come! </div>
+					<div>View the website <a href="https://www.yugtun.com" target="_blank" >here</a>.</div>
+
 					</div>
 				</div>
 
 				<div>
 					<div className='projectDate'>
-					RELEASED JUNE 2019
+					RELEASED FEBRUARY 2020
 					</div>
 					<div className='projectTitle'>
 					Naaqerkat App
 					</div>
 					<div className='projectPicture'>
-						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
+						<a href="https://www.youtube.com/watch?v=zS12MG2U4QQ" target="_blank"><Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/></a>      
 					</div>
 					<div className='projectDescription'>
-					Various projects related to endangered languages revitalization, to be updated. I am passionate about languages in general, and endangered languages strike a chord with me.
+					<div style={{paddingBottom:'10px'}}>This app was created with the help of Yugtun speakers and teachers in the Lower Kuskokwim School District (LKSD). It contains a library of 36 Yugtun books that are narrated, translated, and color-coded!</div>
+					<div>View the tutorial <a href="https://www.youtube.com/watch?v=zS12MG2U4QQ" target="_blank" >here</a>.</div>
+					<div>Download the iOS version <a href="https://apps.apple.com/us/app/naaqerkat/id1522318403" target="_blank" >here</a>.</div>
+					<div>Download the Android version <a href="https://play.google.com/store/apps/details?id=com.yugtunbooks" target="_blank" >here</a>.</div>
+
 					</div>
+
+
 				</div>
 
 				</div>

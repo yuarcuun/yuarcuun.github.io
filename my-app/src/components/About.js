@@ -196,7 +196,7 @@ class About extends Component {
                 <Popup
                   trigger={<Icon style={{color:'#497182',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                   on='click'
-                  content={<div style={{fontSize:'16px'}}>{'Thank you all for coming! Our websites were built using computer science. The two of us, Egalaaq and Alaskuk, were raised in the Kuskokwim region. Our work would not exist without the help of many people. We are thankful to our teachers, Yugtun language authors, and our families.'}</div>}
+                  content={<div style={{fontSize:'16px'}}>{'Thank you all for coming! Our websites were built using computer science tools. The two of us, Egalaaq and Alaskuk, were raised in the Kuskokwim region. Our work would not exist without the help of many people. We are thankful to our teachers, Yugtun language authors, and our families.'}</div>}
                   position='bottom left'
                 />
 				</div>

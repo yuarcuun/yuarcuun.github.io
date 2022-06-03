@@ -56,7 +56,7 @@
 }
 
 .projectDate {
-  color: #222;
+  color: #9b9b9b;
   font-weight: 200;
 }
 
@@ -71,7 +71,7 @@
 
 .projectDescription {
   padding-top: 15px;
-  padding-bottom: 35px;
+  padding-bottom: 55px;
   line-height: 24px;
 }
 
