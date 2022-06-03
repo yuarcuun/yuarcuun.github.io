@@ -215,7 +215,7 @@ class Projects extends Component {
 					Ciuliamta Paiciutait
 					</div>
 					<div className='projectDescription'>
-					An online archive of 100 Yup'ik elder interview with access to interactive sentence and word-level translations. This website is made in partnership with KYUK. 
+					An online archive of 100 Yup'ik elder interview with access to interactive sentence and word-level translations. In partnership with KYUK. 
 					</div>
 				</div>
 
@@ -232,6 +232,7 @@ class Projects extends Component {
 					<div className='projectDescription'>
 					<div style={{paddingBottom:'10px'}}> This is an online searchable dictionary of Yugtun. It contains a sentence builder function that can be used to form different Yugtun words. It also incorporates a morphological parser built by Lonny Alaskuk Strunk that deconstructs and explains the individual parts of a Yugtun word. Stay tuned for more updates to come! </div>
 					<div>View the website <a href="https://www.yugtun.com" target="_blank" >here</a>.</div>
+					<div>View the tutorial <a href="https://www.youtube.com/watch?v=8xW36PYaZHo" target="_blank" >here</a>.</div>
 
 					</div>
 				</div>
@@ -253,7 +254,6 @@ class Projects extends Component {
 					<div>Download the Android version <a href="https://play.google.com/store/apps/details?id=com.yugtunbooks" target="_blank" >here</a>.</div>
 
 					</div>
-
 
 				</div>
 

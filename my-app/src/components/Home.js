@@ -206,9 +206,11 @@ class Home extends Component {
 			<div>
 			{this.state.innerWidth < 480 ?
 				<div className='headerfont' style={{padding:10}}>
+					<div style={{display:'flex',flexDirection:'row'}}>
 						<div style={{paddingTop:'10px'}}>
 							<Image style={{cursor:'pointer',width:'150px'}} src="/yuraq.png"/>          
 						</div>
+						<div>
 						<div style={{paddingLeft:'15px',paddingTop:'20px',fontWeight:'600',fontSize:'22px'}}> Yuarcuun 
 		                <Popup
 		                  trigger={<Icon style={{color:'#497182',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
@@ -257,7 +259,10 @@ class Home extends Component {
 						</div>
 						<div style={{paddingLeft:'15px',paddingTop:'7px',fontWeight:'600',fontSize:'22px'}}> Technologies </div>
 						<div style={{paddingLeft:'15px',paddingTop:'20px',fontStyle:'italic',fontWeight:'300',fontSize:'16px',color:'#9b9b9b'}}> [tool to find what you're searching for] </div>
-						<div className='navigation'>
+						</div>
+					</div>
+
+						<div style={{paddingTop:'50px'}} className='navigation'>
 							<List link>
 								<List.Item active={this.props.currentPage === undefined}>
 									<Link style={{height:'28px',paddingBottom:'3px',borderBottom:(this.props.currentPage === undefined ? '2px black solid' : '')}} to={{pathname: '/'}}>
@@ -306,7 +311,7 @@ class Home extends Component {
 				<Grid style={{padding:20}} columns={2} divided>
 					<Grid.Row>
 					<Grid.Column className='headerfont' style={{paddingLeft:'10px'}} width={6}>
-						<div>
+						<div style={{paddingTop:'20px'}}>
 							<Image style={{cursor:'pointer',width:'150px'}} src="/yuraq.png"/>          
 						</div>
 						<div style={{paddingLeft:'15px',paddingTop:'20px',fontWeight:'600',fontSize:'22px'}}> Yuarcuun 
