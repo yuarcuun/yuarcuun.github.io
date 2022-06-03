@@ -191,7 +191,7 @@ class About extends Component {
 
 				<div>
 
-				<span>Quyana tailuci! Ukut website-aput computer science-aakun caliaqellruaput. Wangkuk Egalaaq Alaskuk-llu anglillruukuk Qusquqviim nuniini. Una caliaput piurtesciigacartuq ikayuqsaitellrukatkut amlleret yuut. Quyavikaput elitnauristeput, Yugtun igatulit, ilaput-llu tamalkuita.</span>
+				<span>Quyana tailuci! Ukut website-aput calissuucetgun computer science-aakun caliaqellruaput. Wangkuk Egalaaq Alaskuk-llu anglillruukuk Kusquqviim nuniini. Una caliaput piurtesciigacartuq amlleret yuut ikayuqsaitellrukatkut. Quyavikaput elitnauristeput, Yugtun igatulit, ilaput-llu tamalkuita.</span>
 
                 <Popup
                   trigger={<Icon style={{color:'#497182',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
