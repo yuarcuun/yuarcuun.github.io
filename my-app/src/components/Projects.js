@@ -187,9 +187,38 @@ class Projects extends Component {
 		return (
 			<div>
 				<div className='pageheader'>Projects</div>
+
 				<div className='pagetext'>
 
+				<div>
+					<div className='projectDate'>
+					JUNE 2019
+					</div>
+					<div className='projectTitle'>
+					Naaqerkat App
+					</div>
+					<div className='projectPicture'>
+						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
+					</div>
+					<div className='projectDescription'>
+					Various projects related to endangered languages revitalization, to be updated. I am passionate about languages in general, and endangered languages strike a chord with me.
+					</div>
+				</div>
 
+				<div>
+					<div className='projectDate'>
+					JUNE 2019
+					</div>
+					<div className='projectTitle'>
+					Naaqerkat App
+					</div>
+					<div className='projectPicture'>
+						<Image style={{borderRadius:'20px'}} src="/naaqerkat.png"/>          
+					</div>
+					<div className='projectDescription'>
+					Various projects related to endangered languages revitalization, to be updated. I am passionate about languages in general, and endangered languages strike a chord with me.
+					</div>
+				</div>
 
 				</div>
 			</div>

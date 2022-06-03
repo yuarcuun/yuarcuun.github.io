@@ -248,27 +248,45 @@ class Home extends Component {
 				:
 				<Grid style={{padding:20}} columns={2} divided>
 					<Grid.Row>
-					<Grid.Column width={6}>
-						<div>Yuarcuun Technologies</div>
+					<Grid.Column className='headerfont' style={{paddingLeft:'10px'}} width={6}>
 						<div>
+							<Image style={{cursor:'pointer',width:'150px'}} src="/yuraq.png"/>          
+						</div>
+						<div style={{paddingLeft:'15px',paddingTop:'20px',fontWeight:'600',fontSize:'22px'}}> Yuarcuun 
+                <Popup
+                  trigger={<Icon style={{color:'#9b9b9b',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                  on='click'
+                  content={<div style={{fontSize:'16px'}}>{'Thank you all for coming! Our websites were built using computer science. The two of us, Egalaaq and Alaskuk, were raised in the Kuskokwim region. Our work would not exist without the help of many people. We are thankful to our teachers, Yugtun language authors, and our families.'}</div>}
+                  position='bottom left'
+                />
+						</div>
+						<div style={{paddingLeft:'15px',paddingTop:'7px',fontWeight:'600',fontSize:'22px'}}> Technologies </div>
+						<div style={{paddingLeft:'15px',paddingTop:'20px',fontStyle:'italic',fontWeight:'300',fontSize:'16px',color:'#9b9b9b'}}> [tool to find what you're searching for] </div>
+						<div className='navigation'>
 							<List link>
-								<List.Item>
-									<Link to={{pathname: '/'}}>
+								<List.Item active={this.props.currentPage === undefined}>
+									<Link style={{height:'28px',paddingBottom:'1px',borderBottom:(this.props.currentPage === undefined ? '2px black solid' : '')}} to={{pathname: '/'}}>
 										About
 									</Link>
 								</List.Item>
-								<List.Item>
-									<Link to={{pathname: '/projects'}}>
+								<List.Item active={this.props.currentPage === 'projects'}>
+									<Link style={{height:'28px',paddingBottom:'1px',borderBottom:(this.props.currentPage === 'projects' ? '2px black solid' : '')}} to={{pathname: '/projects'}}>
 										Projects
 									</Link>
 								</List.Item>
-								<List.Item>
-									<Link to={{pathname: '/contact'}}>
+								<List.Item active={this.props.currentPage === 'contact'}>
+									<Link style={{height:'28px',paddingBottom:'1px',borderBottom:(this.props.currentPage === 'contact' ? '2px black solid' : '')}} to={{pathname: '/contact'}}>
 										Contact
 									</Link>
 								</List.Item>
 							</List>
 						</div>
+						<div style={{paddingLeft:'13px',paddingTop:'20px'}}>
+						<Icon size='large' color='grey'  name='github' />
+						<Icon size='large' color='grey'  name='linkedin' />
+						<Icon size='large' color='grey'  name='mail outline' />
+						</div>
+
 					</Grid.Column>
 					<Grid.Column width={10}>
 						{this.props.currentPage === undefined ?

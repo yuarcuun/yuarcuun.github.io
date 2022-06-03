@@ -33,11 +33,46 @@
   font-size:30px;
   font-weight:bold;
   margin:20px;
+  margin-bottom: 50px;
 }
 
 .pagetext {
   font-size:16px;
   margin:20px;
+}
+
+.headerfont {
+  font-family: sans-serif;
+}
+
+.navigation {
+  padding-top: 30px;
+  padding-left: 15px;
+  font-size: 20px;
+
+}
+
+.projectDate {
+  color: #222;
+  font-weight: 200;
+}
+
+.projectTitle {
+  color: #222;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.projectDescription {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.projectPicture {
+  width:200px;
 }
 
 @keyframes App-logo-spin {

@@ -189,17 +189,42 @@ class About extends Component {
 				<div className='pageheader'>About</div>
 				<div className='pagetext'>
 
-				Quyana tailuci! Una yuarcuun website-aq computer science-aakun caliaqellruaput. Wangkuk Egalaaq Alaskuk-llu anglillruukuk Qusquqviim nuniini. Una caliaput piurtesciigacartuq ikayuqsaitellrukatkut amlleret yuut. Quyavikaput elitnauristeput, Yugtun igatulit, ilaput-llu tamalkuita.
+				<div>
 
-				We are proud to be a team of Yup'ik developers. Current contributors are Christopher Egalaaq Liu, from Mamterilleq (Bethel, Alaska), Laura Domine from Paris, and Lonny Alaskuk Strunk from Kuinerraq (Quinhagak, Alaska).
+				<span>Quyana tailuci! Ukut website-aput computer science-aakun caliaqellruaput. Wangkuk Egalaaq Alaskuk-llu anglillruukuk Qusquqviim nuniini. Una caliaput piurtesciigacartuq ikayuqsaitellrukatkut amlleret yuut. Quyavikaput elitnauristeput, Yugtun igatulit, ilaput-llu tamalkuita.</span>
+
+                <Popup
+                  trigger={<Icon style={{color:'#497182',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                  on='click'
+                  content={<div style={{fontSize:'16px'}}>{'Thank you all for coming! Our websites were built using computer science. The two of us, Egalaaq and Alaskuk, were raised in the Kuskokwim region. Our work would not exist without the help of many people. We are thankful to our teachers, Yugtun language authors, and our families.'}</div>}
+                  position='bottom left'
+                />
+				</div>
 
 
 
-				The first release of this website (Oct 2018) was supported through the Yuarcuun Initiative and received financial sponsorship. At that time, the initiative was financially supported by the following entities.
+				<div style={{paddingTop:'10px'}}>
+				We are proud to be a team of Yup'ik developers. Current contributors are Christopher Egalaaq Liu, from Mamterilleq (Bethel, Alaska), Lonny Alaskuk Strunk from Kuinerraq (Quinhagak, Alaska), and Laura Domine from Paris.
+				</div>
+				<div style={{paddingTop:'10px'}}>
 
-				For this new update (Jan 2021), we integrated a Yugtun morphological parser created by Lonny Alaskuk Strunk. Please contact us at yuarcuun @ gmail dot com for questions about our projects or to discuss any new projects.
+				Please contact us at yuarcuun [at] gmail [dot] com for questions about our projects or to discuss any new collaborations.
+				</div>
+				<div style={{paddingTop:'10px'}}>
 
 				Quyana cakneq!
+				</div>
+
+				<div style={{display:'flex'}}>
+					<div style={{flex:1,margin:30}}>
+						<Image style={{borderRadius:'20px'}} src="/egal.jpg"/>
+						<div style={{display:'flex',justifyContent:'center',marginTop:10}}>Egalaaq</div>
+					</div>
+					<div style={{flex:1,margin:30}}>
+						<Image style={{borderRadius:'20px'}} src="/lonny.jpeg"/>          
+						<div style={{display:'flex',justifyContent:'center',marginTop:10}}>Alaskuk</div>
+					</div>
+				</div>
 
 				</div>
 			</div>
