@@ -243,7 +243,6 @@ class Projects extends Component {
 					</div>
 				</div>
 
-
 				<div>
 					<div className='projectDate'>
 					RELEASED FEBRUARY 2020
