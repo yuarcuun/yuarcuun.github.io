@@ -218,8 +218,10 @@ class Projects extends Component {
 						<a href="https://archive.kyuk.org" target="_blank"><Image style={{borderRadius:'20px'}} src="/kyukwowsmall.png"/></a>   
 					</div>
 					<div className='projectDescription'>
-					An online archive of 100 Yup'ik elder interview with access to interactive sentence and word-level translations. In partnership with KYUK. 
+					<div style={{paddingBottom:'10px'}}>An online archive of 100 Yup'ik elder interview with access to interactive sentence and word-level translations. In partnership with KYUK.</div>
+					<div>View the website <a href="https://archive.kyuk.org" target="_blank" >here</a>.</div>
 					</div>
+
 				</div>
 
 
