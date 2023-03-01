@@ -209,19 +209,23 @@ class Projects extends Component {
 
 				<div>
 					<div className='projectDate'>
-					PROJECTED JULY 2022 (In-Progress)
+					RELEASED FEBRUARY 2023
 					</div>
 					<div className='projectTitle'>
 					Ciuliamta Paiciutait
+					</div>
+					<div style={{marginTop:'25px',marginBottom:'10px'}} className='projectPicture'>
+						<a href="https://archive.kyuk.org" target="_blank"><Image style={{borderRadius:'20px'}} src="/kyukwowsmall.png"/></a>   
 					</div>
 					<div className='projectDescription'>
 					An online archive of 100 Yup'ik elder interview with access to interactive sentence and word-level translations. In partnership with KYUK. 
 					</div>
 				</div>
 
+
 				<div>
 					<div className='projectDate'>
-					RELEASED OCTOBER 2018
+					UPDATED MARCH 2023
 					</div>
 					<div className='projectTitle'>
 					Yugtun.com
@@ -230,12 +234,13 @@ class Projects extends Component {
 						<a href="https://www.yugtun.com" target="_blank"><Image style={{borderRadius:'20px'}} src="/yugtun.png"/></a>   
 					</div>
 					<div className='projectDescription'>
-					<div style={{paddingBottom:'10px'}}> This is an online searchable dictionary of Yugtun. It contains a sentence builder function that can be used to form different Yugtun words. It also incorporates a morphological parser built by Lonny Alaskuk Strunk that deconstructs and explains the individual parts of a Yugtun word. Stay tuned for more updates to come! </div>
+					<div style={{paddingBottom:'10px'}}> This is an online searchable dictionary of Yugtun. It contains a sentence builder function that can be used to form different Yugtun sentences. It also incorporates a morphological parser built by Lonny Alaskuk Strunk that deconstructs and explains the individual parts of a Yugtun word. </div>
 					<div>View the website <a href="https://www.yugtun.com" target="_blank" >here</a>.</div>
-					<div>View the tutorial <a href="https://www.youtube.com/watch?v=8xW36PYaZHo" target="_blank" >here</a>.</div>
+					<div>View the sentence builder <a href="https://www.yugtun.com/sentencebuilder/1" target="_blank" >here</a>.</div>
 
 					</div>
 				</div>
+
 
 				<div>
 					<div className='projectDate'>
