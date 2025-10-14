@@ -192,6 +192,23 @@ class Projects extends Component {
 
 				<div>
 					<div className='projectDate'>
+					RELEASED JUNE 2025
+					</div>
+					<div className='projectTitle'>
+					Haa Shuká Yóo X̲'atángi (Dictionary of Tlingit)
+					</div>
+					<div className='projectPicture'>
+						<a href="https://haashuka.com" target="_blank"><Image style={{borderRadius:'20px'}} src="/haashuka.png"/></a>  
+					</div>
+					<div className='projectDescription'>
+						<div style={{paddingBottom:'10px'}}>This is an online version of the Dictionary of Tlingit compiled by Keri Eggleston. It contains an audio library and an interactive phrasebook.</div>
+						<div>View the website <a href="https://haashuka.com" target="_blank" >here</a>.</div>
+
+					</div>
+				</div>
+
+				<div>
+					<div className='projectDate'>
 					RELEASED JUNE 2022
 					</div>
 					<div className='projectTitle'>
