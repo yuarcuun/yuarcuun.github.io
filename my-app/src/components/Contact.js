@@ -187,10 +187,13 @@ class Contact extends Component {
 		return (
 			<div>
 				<div className='pageheader'>Contact</div>
-				<div className='pagetext'>
+				<div className='pagetext' style={{fontSize:'20px'}}>
 
 				yuarcuun [at] gmail [dot] com
 
+				</div>
+				<div className='projectPicture'>
+					<Image style={{borderRadius:'20px'}} src="/qr-email.png"/>     
 				</div>
 			</div>
 		);
